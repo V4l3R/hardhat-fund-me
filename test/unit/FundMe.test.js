@@ -93,7 +93,7 @@ const { developmentChains } = require("../../helper-hardhat-config");
                       await fundMe.provider.getBalance(deployer);
 
                   // Act
-                  const transactionResponse = await fundMe.cheaperWithdraw();
+                  const transactionResponse = await fundMe.withdraw();
                   const transactionReceipt = await transactionResponse.wait();
                   const { gasUsed, effectiveGasPrice } = transactionReceipt;
                   const withdrawGasCost = gasUsed.mul(effectiveGasPrice);
