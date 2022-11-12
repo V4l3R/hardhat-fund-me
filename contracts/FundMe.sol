@@ -25,8 +25,6 @@ contract FundMe {
     // Modifiers
     modifier onlyOwner() {
         // require(msg.sender == i_owner);
-        console.log(msg.sender);
-        console.log(i_owner);
         if (msg.sender != i_owner) revert FundMe__NotOwner();
         _;
     }
