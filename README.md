@@ -2,7 +2,7 @@
 
 This is a project based on the FreeCodeCamp tutorial
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This project demonstrates a basic Hardhat use case. It comes with contracts, tests for the contracts, and scripts that deploys them.
 
 To run it:
 
